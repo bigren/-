@@ -1,0 +1,211 @@
+@charset "UTF-8";
+/*sub-ad开始*/
+.sub-ad {
+    position: relative;
+}
+.sub-ad a {
+    /*display: block;*/
+    width: 100%;
+    height: 644px;
+    position: absolute;
+    background: url("../image/subbanner.jpg") no-repeat center top ;
+}
+/*sub-ad结束*/
+/*main开始*/
+.main {
+    position: relative;
+}
+.main-slider {
+    float: left;
+    margin: 12px 0 0 220px ;
+    width: 730px;
+    height: 454px;
+    position: relative;
+}
+.main-slider ul {
+    position: absolute;
+    left: 50%;
+    margin-left:-66px;
+    bottom: 10px;
+}
+.main-slider li {
+    float: left;
+    height: 18px;
+    width: 18px;
+    background-color: #3E3E3E;
+    color: #fff;
+    text-align: center;
+    line-height:18px;
+    border-radius: 50% ;
+    margin:0 2px;
+    cursor: pointer;
+}
+.arrow a {
+    position: absolute;
+    top: 50%;
+    width: 28px;
+    height: 62px;
+    color: #fff;
+    font: 400 22px/62px "simsun";
+    text-align: center;
+    margin-top: -31px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+/*opacity: 0.3;*/
+.arrow a:hover {
+    background: rgba(0,0,0, .7);
+}
+.arrow-l {
+left: 0;
+}
+.arrow-r {
+    right: 0;
+}
+
+.main-news {
+    float: right;
+    height: 466px;
+    width: 250px;
+}
+.main-news-top {
+    height: 372px;
+    width: 248px;
+    border: 1px solid #E4E4E4;
+    margin: 12px 0 5px 0;
+    overflow: hidden;
+}
+.main-news-top-fast {
+    height: 163px;
+    border-bottom: 1px solid #E4E4E4;
+}
+.main-news-top-fast-title {
+    border-bottom: 1px dotted #E8E8E7;
+    height: 32px;
+    line-height: 32px;
+}
+.main-news-top-fast-title h2 {
+    float: left;
+    padding:0 15px;
+    font:400 16px/32px "Microsoft YaHei";
+}
+.main-news-top-fast-title a {
+    float: right;
+    font-family: "consolas";
+}
+.main-news-top-fast-content {
+    padding : 5px 0 0 15px;
+}
+.main-news-top-fast-content li {
+    height: 24px;
+}
+.main-news-top-fast-content span {
+    font-weight:700;
+    margin-right: 5px;
+}
+.main-news-top-money li {
+    width: 62px;
+    height: 70px;
+    border: 1px solid #E8E8E7;
+    float: left;
+    margin-left: -1px;
+    margin-top: -1px;
+    border-top: 0 ;
+    position: relative;
+}
+.main-news-top-money ul {
+    width: 260px;
+}
+.main-news-top-money a {
+    display: block;
+    width: 62px;
+    height: 30px;
+    text-align: center;
+    padding-top: 40px;
+    line-height: 30px;
+}
+.main-news-top-money i {
+    position: absolute;
+    top: 13px;
+    left: 18px;
+    background: url("../image/fly.png") no-repeat;
+    width: 25px;
+    height: 25px;
+}
+.main-news-top-money .main-news-top-money-icon2 {
+    background: url("../image/fly.png") no-repeat 0 -25px;
+}
+.main-news-top-money .main-news-top-money-icon3 {
+    background: url("../image/fly.png") no-repeat 0 -50px;
+}
+.main-news-top-money .main-news-top-money-icon4 {
+    background: url("../image/fly.png") no-repeat 0 -75px;
+}
+.main-news-top-money .main-news-top-money-icon5 {
+    background: url("../image/fly.png") no-repeat 0 -100px;
+}
+.main-news-top-money .main-news-top-money-icon6 {
+    background: url("../image/fly.png") no-repeat 0 -125px;
+}
+.main-news-top-money .main-news-top-money-icon7 {
+    background: url("../image/fly.png") no-repeat 0 -150px;
+}
+.main-news-top-money .main-news-top-money-icon8 {
+    background: url("../image/fly.png") no-repeat 0 -175px;
+}
+.main-news-top-money .main-news-top-money-icon9 {
+    background: url("../image/fly.png") no-repeat 0 -200px;
+}
+.main-news-top-money .main-news-top-money-icon10 {
+    background: url("../image/fly.png") no-repeat 0 -225px;
+}
+.main-news-top-money .main-news-top-money-icon11 {
+    background: url("../image/fly.png") no-repeat 0 -250px;
+}
+.main-news-top-money .main-news-top-money-icon12 {
+    background: url("../image/fly.png") no-repeat 0 -275px;
+}
+
+.main-news img {
+    width: 250px;
+    height: 75px;
+    overflow:hidden;
+}
+
+/*main结束*/
+/*today开始*/
+.today {
+    padding:10px 0 20px;
+    position: relative;
+}
+.today-left {
+      float: left;
+  }
+.today-left a {
+    display: block;
+    width: 210px;
+    height: 151px;
+    background: url("../image/pic1.jpg");
+
+}
+.today-right {
+    float: right;
+    width: 1000px;
+    overflow: hidden;
+    position: relative;
+}
+.today-right ul {
+    width: 410%;
+}
+.today-right li {
+    float: left;
+    margin-right: 1px;
+    cursor: pointer;
+}
+.today-right .aarrow-l {
+    position: absolute;
+}
+.today-right .aarrow-r {
+    position: absolute;
+}
+/*today结束*/
